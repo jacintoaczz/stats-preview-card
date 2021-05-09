@@ -3,6 +3,7 @@
     1. Global
     2. Tipography
     3. Layout
+      3.1 Attribution
 
     4. Components
       4.1 Card
@@ -47,6 +48,27 @@ body {
   font-family: var(--font-inter);
   color: var(--white);
   background-color: var(--very-dark-blue);
+}
+
+/* ---------------- 3. Layout  ---------------- */
+.container {
+  margin: 0rem;
+}
+/* ----------------
+  3.1. Attribution
+   ---------------- */
+.attribution {
+  font-size: 1rem;
+  text-align: center;
+}
+.attribution a {
+  text-decoration: none;
+  color: hsl(228, 45%, 44%);
+  transition: letter-spacing 0.3s;
+}
+
+.attribution a:hover {
+  letter-spacing: 2px;
 }
 
 /* ---------------- 4. Components  ---------------- */

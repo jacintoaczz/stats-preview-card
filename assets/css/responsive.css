@@ -1,2 +1,53 @@
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1200px) {
+  .container {
+    margin: 6rem 6rem 1rem 6rem;
+  }
+
+  .card {
+    margin: 0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "body image";
+  }
+
+  .card__img img {
+    border-top-left-radius: 0rem;
+    border-top-right-radius: var(--border-radius);
+    border-bottom-left-radius: 0rem;
+    border-bottom-right-radius: var(--border-radius);
+  }
+
+  .card .card__body {
+    padding: 3rem;
+  }
+
+  .card__heading {
+    font-size: 2.6rem;
+    text-align: left;
+    margin-bottom: 1.5rem;
+  }
+
+  .card__body p {
+    font-size: 1.3rem;
+    text-align: left;
+    line-height: 2rem;
+    margin: 0 0 5rem 0;
+  }
+
+  .card__stats {
+    flex-direction: row;
+    text-align: left;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    justify-content: space-between;
+  }
+
+  .card__stats span {
+    font-size: 1.6rem;
+  }
+
+  .stats__item p {
+    font-size: 1rem;
+    margin: 0 0 1rem 0;
+  }
 }
