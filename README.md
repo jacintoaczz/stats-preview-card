@@ -71,8 +71,6 @@ I also tried to use as much semantic elements as I could, but it probably can be
 It's very likely that the overlay color and some margins/paddings aren't exactly the same as the design. I need to keep improving on those kind of things.
 I'll also keep learning about creating semantic layouts.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
 ## Author
 
 - Frontend Mentor - [@jacintoaczz](https://www.frontendmentor.io/profile/jacintoaczz)
